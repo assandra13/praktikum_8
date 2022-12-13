@@ -5,10 +5,10 @@ class data_mahasiswa():
             nama = str(input("Masukan Nama\t\t: "))
             nim = str(input("Masukan Nim\t\t: "))
             tugas = int(input("Masukan Nilai Tugas\t: "))
-            uts = int(input("Masukan Nilai UTS\t\t: "))
-            uas = int(input("Masukan Nilai UAS\t\t: "))
+            uts = int(input("Masukan Nilai UTS\t: "))
+            uas = int(input("Masukan Nilai UAS\t: "))
             akhir = (tugas / 3) + (uts / 3.5) + (uas / 3.5)
-            lanjut[nama] = nim, tugas, uts, uas, akhir,
+            data[nama] = nim, tugas, uts, uas, akhir,
             print("\nDATA BERHASIL DI TAMBAHKAN!")
     def tampilkan():
             print("=" * 69)
@@ -28,10 +28,10 @@ class data_mahasiswa():
     
     def ubah(nama):
             if nama in data.keys():
-                nim = str(input("Masukan Nim\t\t: "))
-                tugas = int(input("Masukan Nilai Tugas\t: "))
+                nim = str(input("Masukan Nim\t\t\t: "))
+                tugas = int(input("Masukan Nilai Tugas\t\t: "))
                 uts = int(input("Masukan Nilai UTS\t\t: "))
-                uas = int(input("Masukan Nilai UAS\t\tn: "))
+                uas = int(input("Masukan Nilai UAS\t\t: "))
                 akhir = (tugas / 3) + (uts / 3.5) + (uas / 3.5)
                 data[nama] = nim, tugas, uts, uas, akhir
                 print("\nDATA BERHASIL DI UBAH!")
@@ -51,7 +51,7 @@ while True:
         data_mahasiswa.ubah(nama)
     elif (lanjut.lower() == '3'):
         nama = str(input("Masukan Nama : "))
-        if nama in lanjut:
+        if nama in data.keys():
             data_mahasiswa.hapus(nama)
         else:
             print("DATA TIDAK DI TEMUKAN ".format(nama))
