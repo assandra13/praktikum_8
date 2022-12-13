@@ -122,19 +122,19 @@ while True:
 - hasil program
 
 - input tambah
-[img.1](poto/Screenshot_20221213_170940.png)
+![img.1](poto/Screenshot_20221213_170940.png)
 
 - input tampilkan
-[img.2](poto/Screenshot_20221213_171023.png)
+![img.2](poto/Screenshot_20221213_171023.png)
 
 - input hapus
-[img.3](poto/Screenshot_20221213_171044.png)
+![img.3](poto/Screenshot_20221213_171044.png)
 
 - input ubah
-[img.4](poto/Screenshot_20221213_171648.png)
+![img.4](poto/Screenshot_20221213_171648.png)
 
 - input keluar
-[img.5](poto/Screenshot_20221213_171803.png)
+![img.5](poto/Screenshot_20221213_171803.png)
 
 - macam macam inputan nya
-[img.6](poto/Screenshot_20221213_171843.png)
+![img.6](poto/Screenshot_20221213_171843.png)
